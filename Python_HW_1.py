@@ -24,25 +24,25 @@ print(type(d))
 print()
 
 # 5) Создать переменную типа List
-f = ['Лист',5 ,6,10.1]
+f = ['Лист', 5, 6, 10.1]
 print('5) Создать переменную типа List')
 print(type(f))
 print()
 
 # 6) Создать переменную типа Tuple
-e = (10,20,30)
+e = (10, 20, 30)
 print('6) Создать переменную типа Tuple')
 print(type(e))
 print()
 
 # 7) Создать переменную типа Set
-g = {1021222, 'Текст', (10,20,30)}
+g = {1021222, 'Текст', (10, 20, 30)}
 print('7) Создать переменную типа Set')
 print(type(g))
 print()
 
 # 8) Создать переменную типа Frozen set
-Number = (1,2,3,4,5,6,7,8,9)
+Number = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 h = frozenset(Number)
 print('8. Создать переменную типа Frozen set')
 print(type(h))
@@ -51,23 +51,24 @@ print()
 # 9) Создать переменную типа Dict
 k = dict()
 print('9) Создать переменную типа Dict')
+k = {'name': 'Eduard', 'age': 38}
 print(type(k))
-k = {'January', 'March', 'April', 'May'}
 print()
 
 # 10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
 print("10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных")
-print("1.", a)
-print("2.", b)
-print("3.", c)
-print("4.", d)
-print("5.", f)
-print("6.", e)
-print("7.", g)
-print("8.", h)
-print("9.", k)
+print("1.", a,type(a))
+print("2.", b,type(b))
+print("3.", c,type(c))
+print("4.", d,type(d))
+print("5.", f,type(f))
+print("6.", e,type(e))
+print("7.", g,type(g))
+print("8.", h,type(h))
+print("9.", k,type(k))
+#print(" 1.", a, type(a), '\n', "2.", b, type(b), '\n',"3.", c, type(c), '\n', "4.", d, type(d), '\n', "5.", f, type(f),
+      # '\n', "6.", e, type(e), '\n', "7.", g, type(g), '\n', "8." , h, type(h), '\n', "9.", k, type(k))
 print()
-#print(a, b, c, d, f, e, g, h, k, sep = "\n")
 
 # 11) Создать 2 переменные String, создать переменную в которой канкатенируете эти переменные. Вывести в консоль.
 print('11) Создать 2 переменные String, создать переменную в которой канкатенируете эти переменные. Вывести в консоль.')
@@ -82,12 +83,12 @@ print()
 print('12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)')
 s4 = 'February'
 i1 = 28
-print (s4,i1, sep=',')
+print(s4, i1, sep=',')
 print()
 
 # 13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
 print('13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)')
 s4 = 'February'
 i1 = 28
-print (s4,i1, sep='+')
+print(s4, i1, sep='+')
 print()
